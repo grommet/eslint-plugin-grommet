@@ -1,10 +1,10 @@
 # Rule to ensure groupBy and onMore are not used together on DataTable (groupby-onmore)
 
-Please describe the origin of the rule here.
+[DataTable](https://v2.grommet.io/datatable) does not support using `groupBy` and `onMore` together.
 
 ## Rule Details
 
-This rule aims to...
+This rule aims to ensure `groupBy` and `onMore` are not used together.
 
 Examples of **incorrect** code for this rule:
 
@@ -18,15 +18,3 @@ Examples of **correct** code for this rule:
 <DateTable groupBy="location" />
 <DateTable onMore={() => {}} />
 ```
-
-### Options
-
-If there are any options, describe them here. Otherwise, delete this section.
-
-## When Not To Use It
-
-Give a short description of when it would be appropriate to turn off this rule.
-
-## Further Reading
-
-If there are other links that describe the issue this rule addresses, please include them here in a bulleted list.
