@@ -2,14 +2,14 @@
  * @fileoverview Rule to ensure message is applied to Spinner.
  * @author Taylor Seamans
  */
-"use strict";
+'use strict';
 
 //------------------------------------------------------------------------------
 // Requirements
 //------------------------------------------------------------------------------
 
-var rule = require("../../../lib/rules/spinner-message"),
-  RuleTester = require("eslint").RuleTester;
+var rule = require('../../../lib/rules/spinner-message'),
+  RuleTester = require('eslint').RuleTester;
 
 //------------------------------------------------------------------------------
 // Tests
@@ -18,7 +18,7 @@ var rule = require("../../../lib/rules/spinner-message"),
 var ruleTester = new RuleTester({
   parserOptions: { ecmaFeatures: { jsx: true } },
 });
-ruleTester.run("spinner-message", rule, {
+ruleTester.run('spinner-message', rule, {
   valid: [
     '<Spinner message="Loading users" />',
     '<Spinner message={{ start: "Loading users", end: "Users successfully loaded" }} />',
@@ -26,10 +26,10 @@ ruleTester.run("spinner-message", rule, {
 
   invalid: [
     {
-      code: "<Spinner />",
+      code: '<Spinner />',
       errors: [
         {
-          messageId: "spinner-message",
+          messageId: 'spinner-message',
         },
       ],
     },
