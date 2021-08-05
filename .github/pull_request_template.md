@@ -4,7 +4,7 @@
 
 #### Where should the reviewer start?
 
-#### Can you provide a link to an [AST Explorer] example that validates the rule works as expected?
+#### Can you provide a link to an [AST Explorer](https://astexplorer.net/) example that validates the rule works as expected?
 
 #### Any background context you want to provide?
 
