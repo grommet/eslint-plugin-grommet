@@ -1,4 +1,4 @@
-# Image requires alt text that is descriptive about what the image contains. (alt-text)
+# Image requires alt text that is descriptive about what the image contains. (image-alt-text)
 
 Alternative (alt) text is a short, written description of an image. This attribute is critical for web accessibility and benefical for SEO. Alt text is read by screen readers, allowing users with visual impairments to understand the contents and/or function of an image. Additionally, search engines use alt text to return search results.
 
