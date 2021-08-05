@@ -38,7 +38,6 @@ You will also need to install `generator-eslint`:
 yarn global add generator-eslint
 ```
 
-
 Once you are in the root of your forked `eslint-plugin-grommet` repository, you can run the following to write a new rule:
 
 ```
@@ -50,14 +49,15 @@ Follow the prompts to name your rule and give a description. Once your rule has 
 - `lib/rules/<your-rule>.js`
 - `docs/rules/<your-rule>.js`
 - `tests/lib/rules/<your-rule>.js`
-  
+
 Write the logic for your rule in the `lib/rules/<your-rule>.js` file. For guidance, refer to Eslint's [Working with Plugins](https://eslint.org/docs/developer-guide/working-with-plugins) documentation.
-  
+
 It may be helpful to use [Abstract Syntax Tree (AST)](https://astexplorer.net/) to find the appropriate selector for your rule. More guidance on selectors can be found under Eslint's [Selectors](https://eslint.org/docs/developer-guide/selectors) documentation.
 
 ### Rule naming conventions
 
-All rules should be lowercase with a dash (-) separate words. For example: `alt-text`.
+- If a rule is specific to a single component, it should be prefixed with that component name. For example, `image-alt-text`.
+- All rules should be lowercase with a dash (-) separate words. Component names are considered a single word. For example: `datatable-groupBy-onMore`.
 
 ## Testing Your Rule
 

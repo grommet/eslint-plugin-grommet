@@ -16,35 +16,26 @@ Next, install `eslint-plugin-grommet`:
 $ npm install eslint-plugin-grommet --save-dev
 ```
 
-
 ## Usage
 
 Add `grommet` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
-    "plugins": [
-        "grommet"
-    ]
+  "plugins": ["grommet"]
 }
 ```
-
 
 Then configure the rules you want to use under the rules section.
 
 ```json
 {
-    "rules": {
-        "grommet/rule-name": 2
-    }
+  "rules": {
+    "grommet/rule-name": 2
+  }
 }
 ```
 
 ## Supported Rules
 
-* alt-text
-
-
-
-
-
+- [image-alt-text](https://github.com/grommet/eslint-plugin-grommet/blob/master/docs/rules/image-alt-text.md)
