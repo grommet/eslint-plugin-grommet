@@ -39,3 +39,4 @@ Then configure the rules you want to use under the rules section.
 ## Supported Rules
 
 - [image-alt-text](https://github.com/grommet/eslint-plugin-grommet/blob/master/docs/rules/image-alt-text.md)
+- [spinner-message](<(https://github.com/grommet/eslint-plugin-grommet/blob/master/docs/rules/spinner-message.md)>)
