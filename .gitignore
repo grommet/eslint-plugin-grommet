@@ -1,1 +1,25 @@
-node_modules/
+# dependencies
+node_modules
+
+#IDEA
+.idea/**
+.vscode
+
+#lock files
+package-lock.json
+
+# production
+dist
+storybook-static
+
+#logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# misc
+.cache
+.env
+.tmp
+.eslintcache
+.DS_Store
