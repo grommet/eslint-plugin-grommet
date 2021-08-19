@@ -39,4 +39,8 @@ Then configure the rules you want to use under the rules section.
 ## Supported Rules
 
 - [image-alt-text](https://github.com/grommet/eslint-plugin-grommet/blob/master/docs/rules/image-alt-text.md)
-- [spinner-message](<(https://github.com/grommet/eslint-plugin-grommet/blob/master/docs/rules/spinner-message.md)>)
+- [spinner-message](https://github.com/grommet/eslint-plugin-grommet/blob/master/docs/rules/spinner-message.md)
+- [button-single-kind](https://github.com/grommet/eslint-plugin-grommet/blob/master/docs/rules/button-single-kind.md)
+- [datatable-aria-describedby](https://github.com/grommet/eslint-plugin-grommet/blob/master/docs/rules/datatable-aria-describedby.md)
+- [datatable-groupby-onmore](https://github.com/grommet/eslint-plugin-grommet/blob/master/docs/rules/datatable-groupby-onmore.md)
+- [formfield-prefer-children](https://github.com/grommet/eslint-plugin-grommet/blob/master/docs/rules/formfield-prefer-children.md)
