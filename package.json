@@ -1,14 +1,17 @@
 {
   "name": "eslint-plugin-grommet",
   "version": "0.0.0",
-  "description": "Lint rules to use with Grommet.",
-  "keywords": [
-    "eslint",
-    "eslintplugin",
-    "eslint-plugin"
-  ],
-  "author": "Taylor Seamans",
   "main": "lib/index.js",
+  "description": "Lint rules to use with Grommet.",
+  "authors": [
+    "Taylor Seamans",
+    "Eric Soderberg"
+  ],
+  "bugs": "https://github.com/grommet/eslint-plugin-grommet/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grommet/eslint-plugin-grommet.git"
+  },
   "scripts": {
     "lint-fix": "eslint lib tests --fix",
     "prettier": "pretty-quick --staged",
@@ -33,10 +36,17 @@
   "engines": {
     "node": ">=4.0.0"
   },
-  "license": "ISC",
+  "license": "MIT",
   "pre-commit": [
     "lint-fix",
     "prettier",
     "test"
+  ],
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "grommet",
+    "accessibility"
   ]
 }
