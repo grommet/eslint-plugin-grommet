@@ -18,7 +18,20 @@ $ npm install eslint-plugin-grommet --save-dev
 
 ## Usage
 
-Add `grommet` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+### Recommended rules
+
+To use the recommended set of rules, add `plugin:grommet/recommended` to the extends section of your `.eslintrc` configuration file. The `plugin:` prefix informs ESLint that the configuration lives within an `eslint-plugin-` package as opposed to an `eslint-config-` package.
+
+
+```json
+{
+  "extends": ["plugin:grommet/recommended"]
+}
+```
+
+### Opting into and out of specific rules
+
+To opt-in or opt-out of specific rules, add `grommet` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
@@ -32,6 +45,20 @@ Then configure the rules you want to use under the rules section.
 {
   "rules": {
     "grommet/rule-name": 2
+  }
+}
+```
+
+### Example configuration
+
+In the configuration below, the recommended rules are all being enforced except for `formfield-prefer-children`. Be mindful when disabling rules from the recommended configuration as this may result in accessibility errors or other missed best practice guidance.
+
+```json
+{
+  "extends": ["plugin:grommet/recommended"],
+  "plugins": ["grommet"],
+  "rules": {
+    "grommet/formfield-prefer-children": 0
   }
 }
 ```
