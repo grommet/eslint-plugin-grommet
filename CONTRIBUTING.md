@@ -12,8 +12,7 @@ To make a pull request you will need a GitHub account. For help, see GitHub’s 
 Development happens on the `master` branch. In order for you to get
 started you should:
 
-1. fork the `eslint-plugin-grommet` repository
-1. clone it `git clone https://github.com/<your-username>/eslint-plugin-grommet.git`
+1. clone the `eslint-plugin-grommet` repository
 1. install dependencies using: `yarn`
 
 ### Updating an existing rule
