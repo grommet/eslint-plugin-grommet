@@ -56,7 +56,7 @@ It may be helpful to use [Abstract Syntax Tree (AST)](https://astexplorer.net/) 
 ### Rule naming conventions
 
 - If a rule is specific to a single component, it should be prefixed with that component name. For example, `image-alt-text`.
-- All rules should be lowercase with a dash (-) separate words. Component names are considered a single word. For example: `datatable-groupBy-onMore`.
+- All rules should be lowercase with a dash (-) separate words. Component names are considered a single word. For example: `datatable-groupby-onmore`.
 
 ## Testing Your Rule
 
