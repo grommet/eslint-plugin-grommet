@@ -58,7 +58,7 @@ Follow the prompts to name your rule and give a description. Keep in mind our [r
 
 Your rule can be found in `lib/rules/<your-rule>.js` file. Follow these steps when writing your rule:
 
-1. Use [Abstract Syntax Tree (AST)](https://astexplorer.net/) as a sandbox to write and test your rule. AST makes it easy to find the correct selector for a given element. More guidance on selectors can be found under Eslint's [Selectors](https://eslint.org/docs/developer-guide/selectors) documentation.
+1. Use [Abstract Syntax Tree (AST)]([https://astexplorer.net/](https://astexplorer.net/#/gist/8472f65002e82a8da746829c483f7d20/4f96d0f09a3de5daba8184264542e7d4fed96208) as a sandbox to write and test your rule. AST makes it easy to find the correct selector for a given element. More guidance on selectors can be found under Eslint's [Selectors](https://eslint.org/docs/developer-guide/selectors) documentation.
 2. Copy and paste the return state from your AST sandbox into the return statement of `lib/rules/<your-rule>.js`.
 3. Update `meta.docs.category` to "Best Practices" and `meta.docs.recommended` to true.
 4. Delete `meta.docs.schema`.
