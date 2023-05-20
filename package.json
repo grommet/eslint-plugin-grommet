@@ -1,12 +1,13 @@
 {
   "name": "eslint-plugin-grommet",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "main": "lib/index.js",
   "description": "Lint rules to use with Grommet.",
   "authors": [
     "Taylor Seamans",
     "Eric Soderberg"
   ],
+  "license": "MIT",
   "bugs": "https://github.com/grommet/eslint-plugin-grommet/issues",
   "repository": {
     "type": "git",
@@ -36,7 +37,6 @@
   "engines": {
     "node": ">=4.0.0"
   },
-  "license": "MIT",
   "pre-commit": [
     "lint-fix",
     "prettier",
