@@ -7,35 +7,42 @@
     "Taylor Seamans",
     "Eric Soderberg"
   ],
-  "license": "MIT",
+  "license": "Apache-2.0",
   "bugs": "https://github.com/grommet/eslint-plugin-grommet/issues",
   "repository": {
     "type": "git",
     "url": "https://github.com/grommet/eslint-plugin-grommet.git"
   },
   "scripts": {
+    "build": "rm -rf dist && mkdir dist && cp -r lib/ dist/lib && cp LICENSE README.md package.json dist/",
     "lint-fix": "eslint lib tests --fix",
     "prettier": "pretty-quick --staged",
+    "release-stable": "babel-node ./tools/release-stable.mjs",
     "test": "mocha tests --recursive"
   },
   "dependencies": {
     "requireindex": "~1.1.0"
   },
   "devDependencies": {
-    "babel-eslint": "^10.1.0",
-    "eslint": "^5.16.0 || ^6.8.0 || ^7.2.0",
-    "eslint-plugin-eslint-plugin": "^3.5.1",
+    "@babel/core": "^7.21.8",
+    "@babel/eslint-parser": "^7.21.8",
+    "@babel/node": "^7.20.7",
+    "del": "^6.1.1",
+    "eslint": "^8.41.0",
+    "eslint-plugin-eslint-plugin": "^5.1.0",
     "eslint-plugin-node": "^11.1.0",
-    "mocha": "^7.2.0",
+    "fs-extra": "^11.1.1",
+    "mocha": "^10.2.0",
     "pre-commit": "^1.2.2",
-    "prettier": "^2.3.2",
-    "pretty-quick": "^3.1.1"
+    "prettier": "^2.8.8",
+    "pretty-quick": "^3.1.1",
+    "simple-git": "^3.18.0"
   },
   "peerDependencies": {
     "eslint": "^7.31.0"
   },
   "engines": {
-    "node": ">=4.0.0"
+    "node": ">=16"
   },
   "pre-commit": [
     "lint-fix",
