@@ -65,9 +65,16 @@ In the configuration below, the recommended rules are all being enforced except 
 
 ## Supported Rules
 
-- [image-alt-text](https://github.com/grommet/eslint-plugin-grommet/blob/master/docs/rules/image-alt-text.md)
-- [spinner-message](https://github.com/grommet/eslint-plugin-grommet/blob/master/docs/rules/spinner-message.md)
+- [anchor-label](https://github.com/grommet/eslint-plugin-grommet/blob/master/docs/rules/anchor-label.md)
+- [button-icon-a11ytitle](https://github.com/grommet/eslint-plugin-grommet/blob/master/docs/rules/button-icon-a11ytitle.md)
 - [button-single-kind](https://github.com/grommet/eslint-plugin-grommet/blob/master/docs/rules/button-single-kind.md)
 - [datatable-aria-describedby](https://github.com/grommet/eslint-plugin-grommet/blob/master/docs/rules/datatable-aria-describedby.md)
 - [datatable-groupby-onmore](https://github.com/grommet/eslint-plugin-grommet/blob/master/docs/rules/datatable-groupby-onmore.md)
+- [formfield-htmlfor-id](https://github.com/grommet/eslint-plugin-grommet/blob/master/docs/rules/formfield-htmlfor-id.md)
+- [formfield-name.md](https://github.com/grommet/eslint-plugin-grommet/blob/master/docs/rules/formfield-name.md)
 - [formfield-prefer-children](https://github.com/grommet/eslint-plugin-grommet/blob/master/docs/rules/formfield-prefer-children.md)
+- [hoverindicator-onclick](https://github.com/grommet/eslint-plugin-grommet/blob/master/docs/rules/hoverindicator-onclick.md)
+- [image-alt-text](https://github.com/grommet/eslint-plugin-grommet/blob/master/docs/rules/image-alt-text.md)
+- [spinner-message](https://github.com/grommet/eslint-plugin-grommet/blob/master/docs/rules/spinner-message.md)
+
+
