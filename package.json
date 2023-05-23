@@ -17,6 +17,7 @@
     "build": "rm -rf dist && mkdir dist && cp -r lib/ dist/lib && cp LICENSE README.md package.json dist/",
     "lint-fix": "eslint lib tests --fix",
     "prettier": "pretty-quick --staged",
+    "release-stable": "babel-node ./tools/release-stable.mjs",
     "test": "mocha tests --recursive"
   },
   "dependencies": {
