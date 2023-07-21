@@ -33,5 +33,13 @@ ruleTester.run('button-icon-a11ytitle', rule, {
         },
       ],
     },
+    {
+      code: '<Button icon={<FormClose />} tip={{ content: "Close" }} />',
+      errors: [
+        {
+          messageId: 'button-icon-custom-tip',
+        },
+      ],
+    },
   ],
 });
