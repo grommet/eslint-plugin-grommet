@@ -22,6 +22,7 @@ ruleTester.run('button-icon-a11ytitle', rule, {
   valid: [
     '<Button icon={<FormClose />} a11yTitle="Exit Edit Profile Layer" />',
     '<Button icon={<FormClose />} aria-label="Exit Edit Profile Layer" />',
+    '<Button icon={<FormClose />} tip="Exit Edit Profile Layer" />',
   ],
 
   invalid: [
@@ -30,6 +31,14 @@ ruleTester.run('button-icon-a11ytitle', rule, {
       errors: [
         {
           messageId: 'button-icon-a11ytitle',
+        },
+      ],
+    },
+    {
+      code: '<Button icon={<FormClose />} tip={{ content: "Close" }} />',
+      errors: [
+        {
+          messageId: 'button-icon-custom-tip',
         },
       ],
     },
